@@ -1,0 +1,66 @@
+# SchoolClasses config by Tango_ / Nipple_Sausage
+version: 2.0
+
+Prefix: "&3[&bCLASS&3] "
+Professor-prefix: ""
+Student-prefix: ""
+Helper-prefix: ""
+
+# Commands executed by console, add or remove as you wish. Placeholder for player is %player%
+# You can modify add / remove the grade letters and commands. The grades can be words too!
+Rewards:
+  T:
+  - mgive %player% sp 0
+  - msg %player% You got 0 SP!
+  - eco give %player% 1
+  P:
+  - mgive %player% sp 0
+  - msg %player% You got 0 SP!
+  - eco give %player% 1
+  D:
+  - mgive %player% sp 0
+  - msg %player% You got 0 SP!
+  - eco give %player% 1
+  A:
+  - mgive %player% sp 1
+  - eco give %player% 1
+  E:
+  - mgive %player% sp 1
+  O:
+  - mgive %player% sp 1
+  O*:
+  - msg %player% You got 2 SP!
+  - mgive %player% sp 2
+  
+# Messages
+no-permission: "&4You do not have permission to do this"
+class-ended: "&bClass has ended"
+class-started: "&aClass has started!"
+class-full: "&4The class is full!"
+class-already-started: "&4Class %class% has already started"
+class-not-opened: "&4Class %class% has not been opened!"
+left-queue: "&4You have left the queue for this class"
+joined-queue: "&bYou have joined the queue for this class"
+joined-queue-info: "&eWhen the class is ready you will be teleported"
+class-joined: "&3%player% &6has joined the class!"
+class-doesnt-exist: "&4Class %class% does not exist!"
+class-muted: "&bClass has been silenced!"
+class-unmuted: "&bClass is no longer silenced!"
+work-returned: "&bYour work has been returned!"
+queue-kicked: "&4You have been removed from the queue"
+left-class: "&3%player% &6has left the class"
+class-kicked: "             &4You have been removed from the class!"
+class-kicked-info: "&eNote that any handed in work will not be marked or returned"
+class-leave: "                  &4You have left the class!"
+class-leave-info: "&eNote that any handed in work will not be marked or returned"
+class-leave-goodbye: "Thank you for attending class"
+class-notify: "&bProfessor &5%professor% &bhas started a &6%class% &bclass"
+invalid-usage: "&4Invalid usage! &cPlease check /class help"
+rh-out-of-class: "&4You may only use this once class has started"
+player-raised-hand: "&3%player% &5raises their hand"
+handin-already-submitted: "You have already submitted work!"
+handin-too-much: "&bPlease only hand in one piece of work!"
+handin-not-in-class: "&4You are not in a class!"
+handin-successful: "Work handed in, please don't leave until it has been marked!"
+player-called: "&6Professor &5%professor% &6has called upon &3%player%" 
+player-uncalled: "&bYou are no longer called upon"

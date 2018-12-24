@@ -1,0 +1,26 @@
+name: SchoolClassesPlus
+version: 2.0
+main: me.tango.schoolclasses.Main
+description: SchoolClasses for roleplay servers
+author: Tango_
+website: https://bukkit.org/members/tango_.91304968/
+prefix: SC+
+commands:
+  class:
+   description: Class commands
+   aliases:
+   - c
+  rh:
+   description: Raise hand if in class
+   aliases:
+   - raisehand
+  handin:
+   description: Enter spectator mode
+   aliases:
+   - handwork
+   - turnin
+  gatherwork:
+   description: get handed in work
+   aliases:
+   - getwork
+   - gw
